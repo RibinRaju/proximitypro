@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Navbar from './component/Navbar'
+import Card from './component/Card'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
      
-     good bye
-     
+    <Navbar/>
+    <Card img_url="https://c7.alamy.com/comp/FG0FCK/indian-man-profession-plumber-with-tools-and-pipe-mr-693y-FG0FCK.jpg" img_alt="subash">ribin</Card>
     </>
   )
 }
